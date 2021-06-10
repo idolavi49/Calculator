@@ -1,0 +1,120 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background-color:  hsl(222, 26%, 31%);
+}
+
+@font-face {
+    font-family: 'spartanthin';
+    src: url('spartan-variablefont_wght-webfont.woff2') format('woff2'),
+         url('spartan-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+span {
+    font-size: 20px;
+    color: hsl hsl(198, 20%, 13%);
+    font-family: 'spartanthin';
+    font-weight: 900;
+}
+
+.result_span {
+    padding-top: 20px;
+    font-size: 35px;
+    color: white;
+    font-family: 'spartanthin';
+    display: inline-block;
+    text-align: right;
+    float: right;
+}
+
+.output{
+    height: 10vh;
+    width: 20vw;
+    position: absolute; 
+    top: 27%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    background-color: hsl(224, 36%, 15%);
+    
+}
+
+.rows_container{
+    height: 38vh;
+    width: 20vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    border-radius: 1rem;
+    background-color: hsl(223, 31%, 20%);
+}
+
+.row{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.last_row{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.object{
+    height: 5vh;
+    width: 4vw;
+    border-radius: 0.5rem;
+    background-color:  hsl(30, 25%, 89%);
+    box-shadow: 1px 1px hsl(224, 28%, 35%);
+}
+
+.reset_button{
+    height: 6vh;
+    width: 45%;
+    margin-left: 5%;
+    border-radius: 0.5rem;
+    color: white;
+    background-color:  hsl(225, 21%, 49%);
+    box-shadow: 1px 1px hsl(224, 28%, 35%);
+}
+
+.del_button{
+    height: 5vh;
+    width: 4vw;
+    border-radius: 0.5rem;
+    color: white;
+    background-color:  hsl(225, 21%, 49%);
+    box-shadow: 1px 1px hsl(224, 28%, 35%);
+}
+
+.equals_button{
+    height:6vh;
+    width: 45%;
+    margin-right: 5%;
+    margin-left: 2%;
+    border-radius: 0.5rem;
+    color: white;
+    background-color:  hsl(6, 63%, 50%);
+    box-shadow: 1px 1px hsl(224, 28%, 35%);
+}
+
+.action_button{
+    font-size: 15px;
+    font-family: 'spartanthin';
+    font-weight: 900;
+}
